@@ -10,4 +10,6 @@ data class Rule(
     override fun toString(): String {
         return "$leftSide → $rightSide"
     }
+
+    constructor() : this("", "")
 }
